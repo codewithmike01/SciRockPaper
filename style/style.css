@@ -1,3 +1,9 @@
+:root {
+  --mainGreen: green;
+  --mainRed: rgb(230, 74, 27);
+  --secondaryText: white;
+}
+
 *,
 body,
 html {
@@ -9,6 +15,7 @@ html {
 
 body {
   max-width: 980px;
+  margin: 0 auto;
   height: 100%;
   padding-bottom: 2rem;
 }
@@ -50,6 +57,39 @@ main {
   align-items: center;
 }
 
+.action a {
+  margin: 0.5rem;
+}
+
+#img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.computerImage {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: green;
+}
+
+/* Scaared.HTML */
+
+.scared {
+  margin-top: 25%;
+}
+
+/* Exit.HTML */
+
+.exit {
+  color: var(--secondaryText);
+  margin-top: 35%;
+}
+
 /* Utilities */
 .bigText {
   font-size: 1.5rem;
@@ -67,8 +107,17 @@ main {
 }
 
 .btn {
+  width: 80px;
   padding: 0.8em;
   border: 2px solid none;
   border-radius: 5px;
   margin: 0 auto;
+}
+
+.green {
+  color: var(--mainGreen);
+}
+
+.red {
+  color: var(--mainRed);
 }
