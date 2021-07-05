@@ -1,0 +1,74 @@
+*,
+body,
+html {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 980px;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 1em;
+}
+
+p {
+  line-height: 1.5rem;
+  letter-spacing: 0.04rem;
+  word-wrap: break-word;
+  text-indent: 0.7rem;
+}
+
+ol {
+  line-height: 1.75rem;
+}
+
+ul {
+  width: 60%;
+  margin-left: 1rem;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Utilities */
+.bigText {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.mediumText {
+  margin: 0.8rem;
+  font-size: 1.2rem;
+}
+.smallText {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.btn {
+  padding: 0.8em;
+  border: 2px solid none;
+  border-radius: 5px;
+  margin: 0 auto;
+}
