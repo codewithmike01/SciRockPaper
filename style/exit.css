@@ -1,8 +1,11 @@
 body {
+  background-color: black;
   background-image: url(../image/krishna-chaitanya-kaluva-UNpqrcSv5Ec-unsplash.jpg);
   object-fit: cover;
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .actionExit {
