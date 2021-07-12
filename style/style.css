@@ -121,3 +121,69 @@ main {
 .red {
   color: var(--mainRed);
 }
+
+/* notSarced.html */
+
+.game {
+  padding-bottom: 0px;
+}
+
+.game h1 {
+  margin-bottom: -3%;
+}
+.game h4 {
+  margin-top: 1.2rem;
+}
+
+.userSection > h2,
+.comSection > h2 {
+  margin: 0.6em 0.9em;
+  padding: 0;
+}
+.score {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+h4 {
+  text-align: center;
+  transition: all 0.5 ease;
+}
+.user,
+.com {
+  font-size: 3em;
+}
+.choice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+#choiceImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin: 1.7em 1.5em;
+  cursor: pointer;
+}
+#choiceImg h3 {
+  margin-left: 2em;
+}
+
+#imgchoice {
+  width: 70px;
+  height: 70px;
+}
+
+/* winner.HTML */
+.winner {
+  margin-top: 40%;
+  height: 100%;
+}
