@@ -28,9 +28,8 @@ rock.addEventListener("click", rockChoice);
 paper.addEventListener("click", paperChoice);
 scissors.addEventListener("click", scissorsChoice);
 
-// Winning Engine
+//Computer Choice
 function computerPlay() {
-  //Computer Choice
   for (let i = 0; i < 1; i++) {
     comChoice = Math.floor(Math.random() * 3) + 1;
     if (comChoice === 1) {
@@ -80,9 +79,6 @@ function playRound(userInput, computerSelection) {
 }
 // Input Level
 function game(userInput) {
-  // let i = 1;
-  // while (i <= 5) {
-
   if (playerCount !== 5 && comCount !== 5) {
     let computerSelection = computerPlay();
     let finaleOutput = playRound(userInput, computerSelection);
@@ -99,17 +95,18 @@ function game(userInput) {
         if (playerCount > comCount) {
           setTimeout(() => {
             window.location.href = "../winner.html";
-          }, 1000);
+          }, 2000);
         } else {
           setTimeout(() => {
             window.location.href = "../lose.html";
-          }, 1000);
+          }, 2000);
         }
       }
     }, 0);
   }
 }
 
+// Event Lisener Function
 function rockChoice() {
   game("rock");
 }
