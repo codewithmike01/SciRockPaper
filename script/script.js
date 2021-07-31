@@ -94,13 +94,11 @@ function game(userInput) {
       if (playerCount === 5 || comCount === 5) {
         if (playerCount > comCount) {
           setTimeout(() => {
-            window.location.href =
-              "https://ginohmk.github.io/sci-rock-paper/winner.html";
+            window.location.href = "SciRockPapper/winner.html";
           }, 2000);
         } else {
           setTimeout(() => {
-            window.location.href =
-              "https://ginohmk.github.io/sci-rock-paper/lose.html";
+            window.location.href = "SciRockPapperlose.html";
           }, 2000);
         }
       }
