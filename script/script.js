@@ -98,7 +98,7 @@ function game(userInput) {
           }, 2000);
         } else {
           setTimeout(() => {
-            window.location.href = "SciRockPapperlose.html";
+            window.location.href = "SciRockPapper/lose.html";
           }, 2000);
         }
       }
