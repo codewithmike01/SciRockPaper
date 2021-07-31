@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap");
+
 :root {
   --mainGreen: green;
   --mainRed: rgb(230, 74, 27);
@@ -13,11 +15,18 @@ html {
   box-sizing: border-box;
 }
 
+main {
+  max-width: 840px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
 body {
-  max-width: 980px;
   margin: 0 auto;
   height: 100%;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 h1,
@@ -35,7 +44,7 @@ p {
 }
 
 ol {
-  line-height: 1.75rem;
+  line-height: 2.5rem;
 }
 
 ul {
@@ -132,7 +141,7 @@ main {
   margin-bottom: -3%;
 }
 .game h4 {
-  margin-top: 1.2rem;
+  margin-top: 1.5rem;
 }
 
 .userSection > h2,
@@ -165,15 +174,21 @@ h4 {
   width: 80%;
   margin: 0 auto;
 }
-#choiceImg {
+.choiceImg {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   margin: 1.7em 1.5em;
+  border: 1px solid gray;
+  padding: 0.5rem;
   cursor: pointer;
 }
-#choiceImg h3 {
+
+.choiceImg:active {
+  box-shadow: 1px 2px 2px 7px rgb(218, 163, 163);
+}
+.choiceImg h3 {
   margin-left: 2em;
 }
 
@@ -181,9 +196,23 @@ h4 {
   width: 70px;
   height: 70px;
 }
+#commentText {
+  font-size: 1.3rem;
+  color: rgb(10, 167, 10);
+}
 
 /* winner.HTML */
 .winner {
   margin-top: 40%;
   height: 100%;
+}
+#winText {
+  color: rgb(10, 167, 10);
+}
+
+/* MEDIA QUERY */
+@media (min-width: 650px) {
+  .action {
+    flex-direction: row;
+  }
 }
