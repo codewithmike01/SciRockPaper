@@ -94,11 +94,11 @@ function game(userInput) {
       if (playerCount === 5 || comCount === 5) {
         if (playerCount > comCount) {
           setTimeout(() => {
-            window.location.href = "SciRockPapper/winner.html";
+            window.location.href = "winner.html";
           }, 2000);
         } else {
           setTimeout(() => {
-            window.location.href = "SciRockPapper/lose.html";
+            window.location.href = "lose.html";
           }, 2000);
         }
       }
