@@ -223,7 +223,7 @@ h4 {
 }
 .actionExit button {
   border: none;
-  border-radius: ;
+  border-radius: 18px;
   background-color: rgb(230, 74, 27);
   color: white;
   width: 100%;
@@ -335,9 +335,7 @@ h4 {
   .mediumText {
     font-size: 1.4rem;
   }
-   {
-    font-size: 1.7rem;
-  }
+
   #winText {
     font-size: 2.3rem;
   }
