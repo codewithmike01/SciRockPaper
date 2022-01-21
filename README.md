@@ -6,7 +6,7 @@ This is my personal portfolio Website, which is a work in progress.
 
 ## Live Preview
 
-LIVE DEMO: [Myportfolio](https://ginohmk.github.io/SciRockPaper/)
+LIVE DEMO: [SciRockPaper Game](https://ginohmk.github.io/SciRockPaper/)
 
 ## Built With
 
